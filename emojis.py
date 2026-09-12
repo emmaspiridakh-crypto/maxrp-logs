@@ -1,32 +1,32 @@
 EMOJIS = {
     "tickets": {
-        "ticket": "<:ticket:1542760164082581574>",
+        "ticket": "<:ticket:1547991426497773688>",
     },
     "moderation": {
-        "ban": "<:ban:1542761372163506297>",
-        "unban": "<:unban:1542761372163506297>",
-        "kick": "<a:kick:1542761467600965653>",
-        "timeout": "<:timeout:1542500072405606582>",
-        "untimeout": "<:untimeout:1542500072405606582>",
-        "clear": "<:clear:1542760611530670111>",
+        "ban": "<:ban:1548269903780511785>",
+        "unban": "<:unban:1548269903780511785>",
+        "kick": "<a:kick:1548286893920223253>",
+        "timeout": "<:timeout:1548269753485762611>",
+        "untimeout": "<:untimeout:1548269753485762611>",
+        "clear": "<:clear:1548269195844915201>",
     },
     "staff_activity": {
-        "on_duty": "<a:on_duty:1542499780163280938>",
-        "off_duty": "<a:off_duty:1542499714786787459>",
-        "leaderboard": "<:leaderboard:1542759680009576479>",
+        "on_duty": "<a:on_duty:1548269590197575701>",
+        "off_duty": "<a:off_duty:1548269566659002479>",
+        "leaderboard": "<:leaderboard:1548270973285957662>",
     },
     "applications": {
-        "apply": "<:apply:1542816408281415761>",
+        "apply": "<:apply:1548269878438531184>",
     },
     "notifier": {
-        "bell": "<a:notif_bell:1542760099141918820>",
-        "clock": "<:notif_clock:1542817309393944576>",
+        "bell": "<a:notif_bell:1548269105642209291>",
+        "clock": "<:notif_clock:1548284144025473054>",
     },
     "panel": {
-        "scan": "<:scan:1542817856582979584>",
+        "scan": "<a:scan:1547992308492935209>",
     },
     "whitelist": {
-        "accept": "<:wl_accept:1542500013383618640>",
+        "accept": "<:wl_accept:1548269957039525918>",
     },
 }
 

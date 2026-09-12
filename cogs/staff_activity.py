@@ -44,7 +44,7 @@ class StaffActivity(commands.Cog):
         self.bot = bot
         self.deaf_mute_check_loop.start()
         persistent_view = ui.LayoutView(timeout=None)
-        persistent_container = ui.Container(accent_colour=discord.Colour.from_str("#593695"))
+        persistent_container = ui.Container(accent_colour=discord.Colour.from_str("#fd941c"))
         persistent_container.add_item(ui.ActionRow())
         persistent_container.children[-1].add_item(self._make_refresh_button())
         persistent_view.add_item(persistent_container)
@@ -171,7 +171,7 @@ class StaffActivity(commands.Cog):
 
         container = build_base_container(
             title="Staff Activity",
-            description="Leaderboard χρόνου & live status. Μπες σε ένα από τα 3 On Duty κανάλια για να ξεκινήσει ο χρόνος σου.",
+            description="Leaderboard χρόνου & live status. Μπες σε ένα από τα 2 On Duty κανάλια για να ξεκινήσει ο χρόνος σου. Αν είσαι manager μπες στο management.",
             banner_url=config.STAFF_ACTIVITY_BANNER_URL,
         )
         add_separator(container)

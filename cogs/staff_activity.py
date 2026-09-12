@@ -44,7 +44,7 @@ class StaffActivity(commands.Cog):
         self.bot = bot
         self.deaf_mute_check_loop.start()
         persistent_view = ui.LayoutView(timeout=None)
-        persistent_container = ui.Container(accent_colour=discord.Colour.from_str("fd941c"))
+        persistent_container = ui.Container(accent_colour=discord.Colour.from_str("#fd941c"))
         persistent_container.add_item(ui.ActionRow())
         persistent_container.children[-1].add_item(self._make_refresh_button())
         persistent_view.add_item(persistent_container)

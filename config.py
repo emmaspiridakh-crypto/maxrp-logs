@@ -9,7 +9,7 @@ TOKEN = os.getenv("DISCORD_TOKEN")
 GUILD_ID = 1530923897459970119
 PREFIX = "!"
 
-EMBED_COLOR = int(os.getenv("EMBED_COLOR", "#fd941c"), 16)
+EMBED_COLOR = int(os.getenv("EMBED_COLOR", "fd941c"), 16)
 
 # --- Roles (permissions.py) ---
 OWNERSHIP_ROLE_ID = 1548234142351630409
